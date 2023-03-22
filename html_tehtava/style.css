@@ -32,11 +32,15 @@ nav ul li a {
   text-decoration: none;
 }
 
+nav ul li a:hover {
+  background-color: white;
+}
+
 #logo{
   width: 10%;
   margin-left: 0%;
   margin-right: auto;
-  margin-bottom: -3px;
+  margin-bottom: -10px;
 }
 
 #container {
