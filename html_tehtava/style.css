@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: "Franklin Gothic Medium";
 }
+body {
+  display: flex;
+  justify-content: center;
+}
 
 nav ul {
   max-width: 80%;
@@ -41,7 +45,7 @@ nav ul li a {
   background-color: pink;
 }
 
-#container_home{
+#containerHome{
   max-width: 80%;
   background-color: #b3d4fc;
   display: flex;
@@ -53,16 +57,31 @@ nav ul li a {
   margin-bottom: 10%;
 }
 
-#container_products {
+#containerProducts {
   max-width: 80%;
   background-color: #b3d4fc;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
 }
 
-#container_products2{
+#containerProducts2{
+  width: 90%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  background-color: palegreen;
+}
+
+.smallBox {
+  max-width: 30%;
+  background-color: gray;
+  padding: 2%;
+}
+
+.smallBox h2 {
+  padding-bottom: 3%;
 }
 
 #homeHeader {
@@ -75,4 +94,19 @@ nav ul li a {
   max-width: 75%;
   text-align: center;
   padding: 2%;
+}
+
+#productsHeader {
+  margin-left: 35px;
+  margin-bottom: 1%;
+}
+
+#productsPageText {
+  margin-top: 2%;
+  margin-left: 3.5%;
+  max-width: 95%;
+}
+
+.photoText {
+  opacity: 50%;
 }
